@@ -1,0 +1,5 @@
+# Netlify settings for Big Rabbit's Daftari (daftari-book.netlify.app)
+[build]
+  publish = "app"
+  # app/app.js is built from the two source files in src/
+  command = "cat src/head.js src/tail.js > app/app.js"
